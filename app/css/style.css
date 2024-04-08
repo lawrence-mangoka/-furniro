@@ -1,0 +1,199 @@
+.container-fluid {
+    background-color: #fff !important;
+}
+
+.collapse {
+    background-color: #fff !important;
+}
+
+.btn-icon {
+    background-color: #fff !important;
+}
+
+.container-fluid-1 {
+    background-image: url("/app/assets/hero-img.png");
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.card-hero {
+    background-color: #fff3e3;
+    height: 387px;
+    width: 643px;
+    position: relative;
+    left: 10rem;
+    top: 5rem;
+}
+
+.hero-h1 {
+    color: #b88e2f;
+    font-size: 50px;
+}
+
+.card-text {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn-card {
+    background-color: #b88e2f;
+    text-decoration: none;
+}
+
+
+.card-subtitle-browse {
+    color: #3a3a3a;
+}
+
+.btn-card-browse {
+    background-color: #fff3e3;
+    border: #b88e2f solid 1px;
+    color: #b88e2f;
+    text-decoration: none;
+}
+
+
+
+.card-products {
+    background-color: #e5e7eb;
+}
+
+
+.carousel {
+    background-color: #fff3e3;
+}
+
+.btn-slider {
+    background-color: #b88e2f;
+    text-decoration: none;
+    color: #fff;
+}
+
+.carousel-p {
+    color: black;
+}
+
+.carousel-control-prev-icon {
+    color: #b88e2f !important;
+}
+
+
+
+.container-fluid-2 {
+    background-color: #fff3e3;
+    overflow-x: hidden;
+}
+
+
+
+.position-relative-fluid {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 900px;
+}
+
+.img-1 {
+    position: relative;
+    right: 4rem;
+}
+
+.img-2 {
+    position: relative;
+    top: 1rem;
+    right: 16rem;
+}
+
+.img-3 {
+    position: relative;
+    bottom: 40rem;
+    left: 8rem;
+}
+
+.img-4 {
+    position: relative;
+    bottom: 39rem;
+    left: 12rem;
+}
+
+.img-5 {
+    position: relative;
+    bottom: 71rem;
+    left: 33rem;
+}
+
+.img-6 {
+    position: relative;
+    bottom: 101rem;
+    left: 56rem;
+}
+
+.img-7 {
+    position: relative;
+    bottom: 99rem;
+    left: 54rem;
+}
+
+.img-8 {
+    position: relative;
+    bottom: 139rem;
+    left: 74rem;
+}
+
+.img-9 {
+    position: relative;
+    bottom: 137rem;
+    left: 67rem;
+}
+
+
+
+
+.position-relative-fluid {
+    background-color: #fff !important;
+}
+
+.card-fluid-products {
+    background-color: #fff !important;
+}
+
+.card-fluid-browse {
+    background-color: #fff !important;
+}
+
+
+
+.btn {
+    text-decoration: underline;
+}
+
+
+.footer-list {
+    list-style: none;
+    position: relative;
+    left: -2rem;
+}
+
+
+@media only screen and (max-width:767px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr)
+    }
+
+    ;
+}
+
+@media only screen and (max-width:528px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    ;
+}
+
+@media only screen and (max-width:360px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    ;
+}
